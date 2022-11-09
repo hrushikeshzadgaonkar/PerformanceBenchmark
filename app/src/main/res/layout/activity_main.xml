@@ -27,53 +27,61 @@
         android:id="@+id/notice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_notice" />
+        android:text="@string/app_notice"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:id="@+id/launchRecyclerActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4971BF"
         android:contentDescription="@string/launchRecyclerActivity"
         android:text="@string/launchRecyclerActivity" />
 
     <Button
         android:id="@+id/launchListViewActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4971BF"
         android:contentDescription="@string/launchListViewActivity"
-        android:text="@string/launchListViewActivity" />
+        android:text="@string/launchListViewActivity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
         android:id="@+id/launchScrollViewActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4971BF"
         android:contentDescription="@string/launchScrollViewActivity"
         android:text="@string/launchScrollViewActivity" />
 
     <Button
         android:id="@+id/launchComposeList"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4971BF"
         android:contentDescription="@string/launchComposeList"
         android:text="@string/launchComposeList" />
 
     <Button
         android:id="@+id/nestedRecyclerActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4971BF"
         android:contentDescription="@string/launchNestedRecyclerActivity"
         android:text="@string/launchNestedRecyclerActivity" />
 
     <Button
         android:id="@+id/nestedRecyclerWithPoolsActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4971BF"
         android:contentDescription="@string/launchNestedRecyclerWithPoolsActivity"
         android:text="@string/launchNestedRecyclerWithPoolsActivity" />
 
