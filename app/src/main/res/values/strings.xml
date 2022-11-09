@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_notice">Macrobenchmark Target App.</string>
+    <string name="app_notice">Performance Benchmark</string>
     <string name="recyclerDescription">A list of items</string>
     <string name="itemOptions">Item options</string>
     <string name="launchRecyclerActivity">RecyclerView</string>
