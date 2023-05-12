@@ -29,7 +29,7 @@ android {
         managedDevices {
             devices {
                 pixel6Api31(ManagedVirtualDevice) {
-                    device = "Pixel 6"
+                    device = "Pixel 5"
                     apiLevel = 31
                     systemImageSource = "aosp"
                 }
